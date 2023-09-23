@@ -53,6 +53,7 @@ function renderList() {
           comp -= 1;
           notComp += 1;
         }
+        completeAll.checked = false;
         renderList();
       });
   });
